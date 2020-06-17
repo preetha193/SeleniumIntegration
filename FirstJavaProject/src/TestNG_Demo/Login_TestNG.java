@@ -7,6 +7,7 @@ public class Login_TestNG {
 	public void firstTestCase()
 	{
 		System.out.println("this is for test suite testng");
+		System.out.println("hi");
 				
 	}
 
