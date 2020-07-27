@@ -5,18 +5,18 @@ public class StaticVariable {
 								//it stores 1000 and then last execution will be with obj2 so it stores 2000.
 	String depositBy;
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		StaticVariable obj1=new StaticVariable();
 		StaticVariable obj2=new StaticVariable();
-		obj1.accountBalance=1000;
+		accountBalance=1000;
 		obj1.depositBy="Agni";
-		obj2.accountBalance=2000;
+		accountBalance=2000;
 		obj2.depositBy="Preetha";
-		System.out.println("Account Balance:" +obj1.accountBalance);
+		System.out.println("Account Balance:" +accountBalance);
 		System.out.println("Deposit by: " +obj1.depositBy);
-		System.out.println("Account Balance:" +obj2.accountBalance);
+		System.out.println("Account Balance:" +accountBalance);
 		System.out.println("Deposit by: " +obj2.depositBy);
 
 

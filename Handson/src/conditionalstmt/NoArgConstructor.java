@@ -15,8 +15,9 @@ public class NoArgConstructor {
 
 		NoArgConstructor obj=new NoArgConstructor(); // once object is created, 
 		//it calls the no argument constructor and displays the output
+		
 
 
 	}
-
+	
 }

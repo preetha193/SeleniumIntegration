@@ -20,8 +20,6 @@ public class ParameterizedConstructor {
 		ParameterizedConstructor obj=new ParameterizedConstructor("Tiger","Carnivores");
 		// we need to pass the arguments which is declared in the above constructor class
 		obj.animal();
-
-
 		ParameterizedConstructor obj1= new ParameterizedConstructor("Lion","Carnivores");
 		obj1.animal();
 
